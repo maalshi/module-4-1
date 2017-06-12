@@ -50,8 +50,8 @@ public class AerlTest1 {
         driver.findElement (By.xpath("//option[text()='Mr']")).click();
         driver.findElement (By.id("test_adultFname-0-1")).sendKeys("John");
         driver.findElement (By.id("test_adultLname-0-2")).sendKeys("Blare");
-        driver.findElement (By.xpath("//*[@id='test_email-3']")).sendKeys("ffffffcom");
-        driver.findElement (By.xpath("//*[@id='test_confirmemail-6']")).sendKeys("ffffffcom");
+        driver.findElement (By.xpath("//*[@id='test_email-3']")).sendKeys("maalshi@mail.ru");
+        driver.findElement (By.xpath("//*[@id='test_confirmemail-6']")).sendKeys("maalshi@mail.ru");
         driver.findElement (By.xpath("//*[@id='test_acode-4']")).sendKeys("34");
         driver.findElement (By.xpath("//*[@id='test_mobnumber-5']")).sendKeys("3434");
 
